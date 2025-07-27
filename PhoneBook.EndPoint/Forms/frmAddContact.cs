@@ -33,7 +33,7 @@ namespace UI_WinForm.Forms
                 LastName = txtFamily.Text,
                 PhoneNumber = txtPhoneNumber.Text,
                 CompanyName = txtCompany.Text,
-                Description = txtCompany.Text
+                Description = txtDescription.Text
             });
 
             if (result.IsSuccess)
@@ -46,5 +46,6 @@ namespace UI_WinForm.Forms
                 MessageBox.Show(result.Message, "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
     }
 }
